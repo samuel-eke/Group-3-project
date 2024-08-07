@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body{
+            background-image: url("enrol bgc.jpg");
+        }
+        label{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="somedumbshii.html">Course Registration</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="somedumbshii.html#courses">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="somedumbshii.html#instructors">Instructors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <form action="" style="margin-top:70px;">
+        <label class="form-label p-1" for="name">Name</label>
+        <input class="form-control m-1 w-50 required" placeholder="Your name" type="text">
+        <label class="form-label p-1" for="email">Email</label>
+        <input class="form-control m-1 w-50 required" placeholder="Your email" type="email">
+        <label class="form-label p-1" for="phone">Phone</label>
+        <input class="form-control m-1 w-50 required" placeholder="Your number" type="tel">
+        <label class="form-label p-1" for="age">Age</label>
+        <input class="form-control m-1 w-50 required" placeholder="Your age" type="number">
+        <label for="course" class="form-label p-1">Select your course</label><br>
+        <select name="course" id="" class="form-control p-1 w-50 required">
+            <option value="programming">Introduction to programming</option>
+            <option value="webdev">Web Development</option>
+            <option value="datascience">Data Science</option>
+            <option value="machine">Machine Learning</option>
+            <option value="mobile">Mobile App</option>
+        </select><br>
+        <label class="form-label p-1" for="pwd">Password</label>
+        <input class="form-control m-1 w-50 required" placeholder="Your password" type="password">
+        <button class="btn btn-success w-50 border mt-1 mb-1">Enrol</button>
+        <button class="btn btn-primary w-50 border mt-1">Reset</button>
+    </form>
+</body>
+</html>

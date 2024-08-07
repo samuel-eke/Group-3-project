@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Registration</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    #hero{
+        background-image: url("data science and machine learning.jpg");
+        color: white; 
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="somedumbshii.html">Course Registration</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#courses">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#instructors">Instructors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-5 pt-5">
+    
+    <!-- Hero Section -->
+
+    <div id="hero" class="text-black text-center mt-1" style="margin-left: -200px; margin-right: -120px; margin-top: -100px; padding: 9rem 5rem;">
+      <div class="container">
+        <h1 class="display-4 font-weight-bold">Discover Our Top Courses</h1>
+        <p class="lead">Join thousands of learners and enhance your skills with our curated courses.</p>
+      </div>
+    </div>
+ 
+  
+  
+
+    <!-- List of Courses -->
+    <div class="row mb-5 mt-4" id="courses">
+      <div class="col-12">
+        <h2 class="mb-4">Courses Offered</h2>
+        <div class="card-deck">
+          <div class="card">
+            <img src="programming.jpg" class="card-img-top" alt="Introduction to Programming">
+            <div class="card-body">
+              <h5 class="card-title">Introduction to Programming</h5>
+              <p class="card-text">Learn the basics of programming using Python. Covering variables, loops, functions, and more.</p>
+              <a href="detailsprogramming.html" class="btn btn-primary mt-5">View Details</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="web dev courses.png" class="card-img-top" alt="Advanced Web Development">
+            <div class="card-body">
+              <h5 class="card-title">Advanced Web Development</h5>
+              <p class="card-text">Explore advanced techniques in web development with HTML, CSS, JavaScript, and modern frameworks.</p>
+              <a href="web dev.html" class="btn btn-primary">View Details</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="data science.jpg" class="card-img-top" alt="Data Science Fundamentals">
+            <div class="card-body">
+              <h5 class="card-title">Data Science Fundamentals</h5>
+              <p class="card-text">Understand the basics of data science, including data analysis, visualization, and machine learning fundamentals.</p>
+              <a href="datascience.html" class="btn btn-primary mt-3">View Details</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="data science and machine learning.jpg" class="card-img-top" alt="Machine Learning">
+            <div class="card-body">
+              <h5 class="card-title">Machine Learning</h5>
+              <p class="card-text">Dive into machine learning with hands-on projects and learn to build predictive models.</p>
+              <a href="machine.html" class="btn btn-primary mt-5">View Details</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="mobileapp course.jpg" class="card-img-top" alt="Mobile App Development">
+            <div class="card-body">
+              <h5 class="card-title">Mobile App Development</h5>
+              <p class="card-text">Create mobile applications with hands-on projects using Android and iOS platforms.</p>
+              <a href="mobileapp.html" class="btn btn-primary mt-5">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Instructors Section -->
+    <div id="instructors" class="row mt-5">
+      <div class="col-12">
+        <h2>Meet Our Instructors</h2>
+        <div class="card-deck">
+          <div class="card text-center">
+            <img src="doyin.jpg" class="card-img-top rounded-circle mx-auto mt-3" alt="Instructor 1" style="width: 150px; height: 150px;">
+            <div class="card-body">
+              <h5 class="card-title">ADEDOYIN</h5>
+              <p class="card-text">Doyin is a seasoned web developer with over 10 years of experience in the field.</p>
+            </div>
+          </div>
+          <div class="card text-center">
+            <img src="deborahhh.jpg" class="card-img-top rounded-circle mx-auto mt-3" alt="Instructor 2" style="width: 150px; height: 150px;">
+            <div class="card-body">
+              <h5 class="card-title">DEBORAH</h5>
+              <p class="card-text">Debbie is an expert in data science and machine learning with a PhD in Computer Science.</p>
+            </div>
+          </div>
+          <div class="card text-center">
+            <img src="philip.jpg" class="card-img-top rounded-circle mx-auto mt-3" alt="Instructor 3" style="width: 150px; height: 150px;">
+            <div class="card-body">
+              <h5 class="card-title">PHILIP</h5>
+              <p class="card-text">Philip is a mobile app developer with extensive experience in both Android and iOS development.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Enrollment Modal -->
+    <div class="modal fade" id="enrollModal" tabindex="-1" aria-labelledby="enrollModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="enrollModalLabel">Enroll in Course</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" class="form-control" id="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" class="form-control" id="email" required>
+              </div>
+              <div class="form-group">
+                <label for="course">Course</label>
+                <select class="form-control" id="course" required>
+                  <option>Introduction to Programming</option>
+                  <option>Advanced Web Development</option>
+                  <option>Data Science Fundamentals</option>
+                  <option>Machine Learning</option>
+                  <option>Mobile App Development</option>
+                </select>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <div class="container">
+      <p>&copy; 2024 ONE PIECE IS THE GOAT. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

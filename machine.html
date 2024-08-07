@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Details</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        
+        .image {
+            position: relative;
+            display: block;
+            }
+
+            .overlay-text {
+            position: absolute;
+            top: 40%;
+            left: 35%;
+            transform: translate(-50%, -50%);
+            color: white;
+            background-color: rgba(0, 0, 0, 0); /* Transparent background for text */
+            padding: 20px;
+            border-radius: 5px;
+            font-size: 19px;
+            }
+
+            @media (max-width: 1000px) {
+               .overlay-text {
+               font-size: 14px;
+               padding: 10px;
+            }
+        }
+    </style>    
+</head>
+<body> 
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="somedumbshii.html">Course Registration</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="somedumbshii.html#courses">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="somedumbshii.html#instructors">Instructors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  <!-- Course Details -->
+
+    <div class="container-fluid">
+        <div class="image">
+            <img src="blue image.jpg" class="img-fluid mt-4" alt="Image" style=" width: 1800px; height: 400px;">
+            <div class="overlay-text">
+            <h2>Machine Learning</h2>
+            <p>Dive into machine learning with hands-on projects and learn to build predictive models.</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <button id="overlaybtn" class="btn btn-info w-50 border-radius-5 mt-5" ><a href="#machinecurriculum" style="text-decoration: none; color: aliceblue;">View Syllabus</a></button>
+                </div>
+                <div class="col-md-6">
+                    <button id="overlaybtn" class="btn btn-info w-50 border-radius-5 mt-5" ><a href="enrol.html" style="text-decoration: none; color: aliceblue;">Enrol here!</a></button>
+                </div>
+            </div>
+        </div>
+    </div
+
+    <div>
+      <h3 id="machinecurriculum" class="mt-3">Course Overview/Curriculum</h3>
+      <ul class="list-group mb-4">
+        <li class="list-group-item">Week 1: Introduction to Machine Learning</li>
+        <li class="list-group-item">Week 2: Supervised Learning</li>
+        <li class="list-group-item">Week 3: Unsupervised Learning</li>
+        <li class="list-group-item">Week 4: Model Evaluation</li>
+        <li class="list-group-item">Week 5: Basics of Python</li>
+        <li class="list-group-item">Week 6: Introduction to Machine Learning</li>
+        <li class="list-group-item">Week 7: Supervised Learning</li>
+        <li class="list-group-item">Week 8: Unsupervised Learning</li>
+        <li class="list-group-item">Week 9: Model Evaluation</li>
+        <li class="list-group-item">Week 10: Control Structures</li>
+        <li class="list-group-item">Week 11: Functions and Modules</li>
+        <li class="list-group-item">Week 12: Object-Oriented Programming</li>
+      </ul>
+    </div>
+
+</body>

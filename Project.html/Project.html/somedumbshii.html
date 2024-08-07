@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Registration</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .hero{
+        
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Course Registration</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#courses">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#instructors">Instructors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-5 pt-5">
+    
+<!-- Hero Section -->
+
+    <div class="text-white text-center" style="background: url('1000_F_621380970_R7J1LVl5jj0opdCWhU8QTGo8KU56G03x.jpg'); margin-left: -200px; margin-right: -120px; margin-top: -100px; padding: 9rem 5rem;">
+      <div class="container">
+        <h1 class="display-4 font-weight-bold">Discover Our Top Courses</h1>
+        <p class="lead">Join thousands of learners and enhance your skills with our curated courses.</p>
+      </div>
+    </div>
+ 
+  
+  
+
+    <!-- List of Courses -->
+    <div class="row mb-5" id="courses">
+      <div class="col-12">
+        <h2 class="mb-4">Courses Offered</h2>
+        <div class="card-deck">
+          <div class="card">
+            <img src="images program2.jpeg" class="card-img-top" alt="Introduction to Programming">
+            <div class="card-body">
+              <h5 class="card-title">Introduction to Programming</h5>
+              <p class="card-text">Learn the basics of programming using Python. Covering variables, loops, functions, and more.</p>
+              <a href="#course1" class="btn btn-primary">View Details</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://via.placeholder.com/500x300" class="card-img-top" alt="Advanced Web Development">
+            <div class="card-body">
+              <h5 class="card-title">Advanced Web Development</h5>
+              <p class="card-text">Explore advanced techniques in web development with HTML, CSS, JavaScript, and modern frameworks.</p>
+              <a href="#course2" class="btn btn-primary">View Details</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://via.placeholder.com/500x300" class="card-img-top" alt="Data Science Fundamentals">
+            <div class="card-body">
+              <h5 class="card-title">Data Science Fundamentals</h5>
+              <p class="card-text">Understand the basics of data science, including data analysis, visualization, and machine learning fundamentals.</p>
+              <a href="#course3" class="btn btn-primary">View Details</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://via.placeholder.com/500x300" class="card-img-top" alt="Machine Learning">
+            <div class="card-body">
+              <h5 class="card-title">Machine Learning</h5>
+              <p class="card-text">Dive into machine learning with hands-on projects and learn to build predictive models.</p>
+              <a href="#course4" class="btn btn-primary">View Details</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://via.placeholder.com/500x300" class="card-img-top" alt="Mobile App Development">
+            <div class="card-body">
+              <h5 class="card-title">Mobile App Development</h5>
+              <p class="card-text">Create mobile applications with hands-on projects using Android and iOS platforms.</p>
+              <a href="#course5" class="btn btn-primary">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Course Details -->
+    <div id="course1" class="row mt-5">
+      <div class="col-12">
+        <h2>Introduction to Programming</h2>
+        <div class="card mb-4">
+          <img src="https://via.placeholder.com/800x400" class="card-img-top" alt="Introduction to Programming">
+          <div class="card-body">
+            <h5 class="card-title">Course Details</h5>
+            <p class="card-text">Learn the basics of programming using Python. This course covers variables, loops, functions, and more.</p>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#enrollModal">Enroll Now</button>
+          </div>
+        </div>
+        <h3>Curriculum</h3>
+        <ul class="list-group mb-4">
+          <li class="list-group-item">Week 1: Basics of Python</li>
+          <li class="list-group-item">Week 2: Control Structures</li>
+          <li class="list-group-item">Week 3: Functions and Modules</li>
+          <li class="list-group-item">Week 4: Object-Oriented Programming</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="course2" class="row mt-5">
+      <div class="col-12">
+        <h2>Advanced Web Development</h2>
+        <div class="card mb-4">
+          <img src="https://via.placeholder.com/800x400" class="card-img-top" alt="Advanced Web Development">
+          <div class="card-body">
+            <h5 class="card-title">Course Details</h5>
+            <p class="card-text">Explore advanced web development techniques using HTML, CSS, JavaScript, and modern frameworks.</p>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#enrollModal">Enroll Now</button>
+          </div>
+        </div>
+        <h3>Curriculum</h3>
+        <ul class="list-group mb-4">
+          <li class="list-group-item">Week 1: Advanced HTML & CSS</li>
+          <li class="list-group-item">Week 2: JavaScript Deep Dive</li>
+          <li class="list-group-item">Week 3: Responsive Design</li>
+          <li class="list-group-item">Week 4: Modern Web Frameworks</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="course3" class="row mt-5">
+      <div class="col-12">
+        <h2>Data Science Fundamentals</h2>
+        <div class="card mb-4">
+          <img src="https://via.placeholder.com/800x400" class="card-img-top" alt="Data Science Fundamentals">
+          <div class="card-body">
+            <h5 class="card-title">Course Details</h5>
+            <p class="card-text">Understand the basics of data science, including data analysis, visualization, and machine learning fundamentals.</p>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#enrollModal">Enroll Now</button>
+          </div>
+        </div>
+        <h3>Curriculum</h3>
+        <ul class="list-group mb-4">
+          <li class="list-group-item">Week 1: Introduction to Data Science</li>
+          <li class="list-group-item">Week 2: Data Analysis</li>
+          <li class="list-group-item">Week 3: Data Visualization</li>
+          <li class="list-group-item">Week 4: Machine Learning Basics</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="course4" class="row mt-5">
+      <div class="col-12">
+        <h2>Machine Learning</h2>
+        <div class="card mb-4">
+          <img src="https://via.placeholder.com/800x400" class="card-img-top" alt="Machine Learning">
+          <div class="card-body">
+            <h5 class="card-title">Course Details</h5>
+            <p class="card-text">Dive into machine learning with hands-on projects and learn to build predictive models.</p>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#enrollModal">Enroll Now</button>
+          </div>
+        </div>
+        <h3>Curriculum</h3>
+        <ul class="list-group mb-4">
+          <li class="list-group-item">Week 1: Introduction to Machine Learning</li>
+          <li class="list-group-item">Week 2: Supervised Learning</li>
+          <li class="list-group-item">Week 3: Unsupervised Learning</li>
+          <li class="list-group-item">Week 4: Model Evaluation</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="course5" class="row mt-5">
+      <div class="col-12">
+        <h2>Mobile App Development</h2>
+        <div class="card mb-4">
+          <img src="https://via.placeholder.com/800x400" class="card-img-top" alt="Mobile App Development">
+          <div class="card-body">
+            <h5 class="card-title">Course Details</h5>
+            <p class="card-text">Create mobile applications with hands-on projects using Android and iOS platforms.</p>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#enrollModal">Enroll Now</button>
+          </div>
+        </div>
+        <h3>Curriculum</h3>
+        <ul class="list-group mb-4">
+          <li class="list-group-item">Week 1: Introduction to Mobile Development</li>
+          <li class="list-group-item">Week 2: Android Development</li>
+          <li class="list-group-item">Week 3: iOS Development</li>
+          <li class="list-group-item">Week 4: Cross-Platform Development</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Instructors Section -->
+    <div id="instructors" class="row mt-5">
+      <div class="col-12">
+        <h2>Meet Our Instructors</h2>
+        <div class="card-deck">
+          <div class="card text-center">
+            <img src="https://via.placeholder.com/150" class="card-img-top rounded-circle mx-auto mt-3" alt="Instructor 1" style="width: 150px; height: 150px;">
+            <div class="card-body">
+              <h5 class="card-title">ADEDOYIN</h5>
+              <p class="card-text">Doyin is a seasoned web developer with over 10 years of experience in the field.</p>
+            </div>
+          </div>
+          <div class="card text-center">
+            <img src="https://via.placeholder.com/150" class="card-img-top rounded-circle mx-auto mt-3" alt="Instructor 2" style="width: 150px; height: 150px;">
+            <div class="card-body">
+              <h5 class="card-title">DEBORAH</h5>
+              <p class="card-text">Debbie is an expert in data science and machine learning with a PhD in Computer Science.</p>
+            </div>
+          </div>
+          <div class="card text-center">
+            <img src="https://via.placeholder.com/150" class="card-img-top rounded-circle mx-auto mt-3" alt="Instructor 3" style="width: 150px; height: 150px;">
+            <div class="card-body">
+              <h5 class="card-title">PHILIP</h5>
+              <p class="card-text">Philip is a mobile app developer with extensive experience in both Android and iOS development.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Enrollment Modal -->
+    <div class="modal fade" id="enrollModal" tabindex="-1" aria-labelledby="enrollModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="enrollModalLabel">Enroll in Course</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" class="form-control" id="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" class="form-control" id="email" required>
+              </div>
+              <div class="form-group">
+                <label for="course">Course</label>
+                <select class="form-control" id="course" required>
+                  <option>Introduction to Programming</option>
+                  <option>Advanced Web Development</option>
+                  <option>Data Science Fundamentals</option>
+                  <option>Machine Learning</option>
+                  <option>Mobile App Development</option>
+                </select>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <div class="container">
+      <p>&copy; 2024 ONE PIECE IS THE GOAT. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
